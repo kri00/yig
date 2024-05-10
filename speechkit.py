@@ -2,7 +2,7 @@ import requests
 import math
 import logging
 from yandex_gpt import GET_IAM
-from config import folder_id
+from creds import folder_id
 
 iam = GET_IAM()
 get_token = iam.get_token()

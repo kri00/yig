@@ -4,7 +4,8 @@ import math
 import logging
 from json_work import read_file, write_file
 
-from config import LOG_PATH, folder_id, metadata_url
+from config import LOG_PATH, metadata_url
+from creds import folder_id
 
 
 class GET_IAM:

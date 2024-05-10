@@ -1,5 +1,5 @@
 import telebot
-from config import TOKEN
+from creds import TOKEN
 from validators import send_gpt, send_stt, send_tts, check_limits
 from database import SQlite
 

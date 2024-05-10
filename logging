@@ -1,0 +1,18 @@
+2024-05-10 22:26:04,304 Starting new HTTPS connection (1): api.telegram.org:443
+2024-05-10 22:26:18,854 https://api.telegram.org:443 "GET /bot6858978891:AAGGYZQo5Z9Z3vZlsG13-ZDqJ0-G5ds_LtU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 607
+2024-05-10 22:26:18,881 Starting new HTTPS connection (1): api.telegram.org:443
+2024-05-10 22:26:19,252 https://api.telegram.org:443 "GET /bot6858978891:AAGGYZQo5Z9Z3vZlsG13-ZDqJ0-G5ds_LtU/getFile?file_id=AwACAgIAAxkBAAJoRGY-dN1pTnuD4trVXLxkBqlDPA90AAILTgACuQTwSeGhnCf4XnunNQQ HTTP/1.1" 200 191
+2024-05-10 22:26:19,387 https://api.telegram.org:443 "GET /file/bot6858978891:AAGGYZQo5Z9Z3vZlsG13-ZDqJ0-G5ds_LtU/voice/file_52.oga HTTP/1.1" 200 79945
+2024-05-10 22:26:19,499 Starting new HTTPS connection (1): stt.api.cloud.yandex.net:443
+2024-05-10 22:26:20,054 https://stt.api.cloud.yandex.net:443 "POST /speech/v1/stt:recognize?topic=general&folderId=b1g704jcherp5r2epn57&lang=ru-RU HTTP/1.1" 200 64
+2024-05-10 22:26:20,063 Error: near "user_id": syntax error
+2024-05-10 22:26:20,077 Starting new HTTPS connection (1): llm.api.cloud.yandex.net:443
+2024-05-10 22:26:20,401 https://llm.api.cloud.yandex.net:443 "POST /foundationModels/v1/tokenize HTTP/1.1" 200 None
+2024-05-10 22:26:20,416 Starting new HTTPS connection (1): llm.api.cloud.yandex.net:443
+2024-05-10 22:26:21,620 https://llm.api.cloud.yandex.net:443 "POST /foundationModels/v1/completion HTTP/1.1" 200 None
+2024-05-10 22:26:21,641 Starting new HTTPS connection (1): tts.api.cloud.yandex.net:443
+2024-05-10 22:26:21,962 https://tts.api.cloud.yandex.net:443 "POST /speech/v1/tts:synthesize HTTP/1.1" 200 None
+2024-05-10 22:26:24,551 Error: near "user_id": syntax error
+2024-05-10 22:26:25,506 https://api.telegram.org:443 "POST /bot6858978891:AAGGYZQo5Z9Z3vZlsG13-ZDqJ0-G5ds_LtU/sendVoice?chat_id=1146681329 HTTP/1.1" 200 501
+2024-05-10 22:26:38,936 https://api.telegram.org:443 "GET /bot6858978891:AAGGYZQo5Z9Z3vZlsG13-ZDqJ0-G5ds_LtU/getUpdates?offset=242080678&timeout=20 HTTP/1.1" 200 23
+2024-05-10 22:26:59,014 https://api.telegram.org:443 "GET /bot6858978891:AAGGYZQo5Z9Z3vZlsG13-ZDqJ0-G5ds_LtU/getUpdates?offset=242080678&timeout=20 HTTP/1.1" 200 23
